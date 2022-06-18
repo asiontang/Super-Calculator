@@ -86,7 +86,7 @@ class SuperCalculatorCommand(sublime_plugin.TextCommand):
                         result = round(Decimal(result), self.settings.get("round_decimals"))
                     result = str(result)
                     if self.settings.get("trim_zeros") and '.' in result:
-                        result =  result.strip('0').rstrip('.')
+                        result =  result.rstrip('0').rstrip('.')
                         if result == '':
                             result = '0'
                     if result != expr:
@@ -124,4 +124,4 @@ class SuperCalculatorCommand(sublime_plugin.TextCommand):
             return result
 
         expression_separator = self.settings.get('keep_expressions_separator') or '='
-        return f'{expr} {expression_separator} {result}'
+        return expr+expression_separator+result

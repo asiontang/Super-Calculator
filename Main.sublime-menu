@@ -17,7 +17,7 @@
                                 "command": "open_file",
                                 "args":
                                 {
-                                    "file": "${packages}/Super Calculator/Super Calculator.sublime-settings"
+                                    "file": "${packages}/Super-Calculator/Super Calculator.sublime-settings"
                                 }
                             },
                             {
@@ -34,7 +34,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Super Calculator/Default (OSX).sublime-keymap",
+                                    "file": "${packages}/Super-Calculator/Default (OSX).sublime-keymap",
                                     "platform": "OSX"
                                 },
                                 "caption": "Key Bindings – Default"
@@ -42,7 +42,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Super Calculator/Default (Linux).sublime-keymap",
+                                    "file": "${packages}/Super-Calculator/Default (Linux).sublime-keymap",
                                     "platform": "Linux"
                                 },
                                 "caption": "Key Bindings – Default"
@@ -50,7 +50,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Super Calculator/Default (Windows).sublime-keymap",
+                                    "file": "${packages}/Super-Calculator/Default (Windows).sublime-keymap",
                                     "platform": "Windows"
                                 },
                                 "caption": "Key Bindings – Default"

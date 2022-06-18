@@ -1,6 +1,7 @@
 {
     // Round results to the specified decimals
-    "round_decimals": 2,
+    "round_decimals": 3,
+    "trim_zeros": true,
 
     // Activate the Keep Expressions mode,
     // keeping the expressions in the result
@@ -11,7 +12,7 @@
     // Keep Expressions behavior:
     // 		expression: 5 + 5
     // 		result: 5 + 5 = 10
-    "keep_expressions": false,
+    "keep_expressions": true,
 
     // The chars that we gonna put to separate the
     // expression from the result.
